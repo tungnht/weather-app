@@ -15,7 +15,7 @@ async function checkWeather(){
     const city = document.querySelector('.search-input').value;
     const APIkey = 'f658eb88f5d0c6a79a342c812a6cff76';
     let lat, lon = 0;
-    await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${APIkey}`)
+    await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${APIkey}`)
     .then(response => response.json()).then(json => { 
         
         if (json[0] !== undefined){
