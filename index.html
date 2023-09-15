@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=ADLaM Display' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/0f38462740.js" crossorigin="anonymous"></script>    <title>Weather App</title>
+</head>
+<body>
+   <div class="container">
+    <div class="search-content">
+        <div class="search-box">
+                <i class="fas fa-location"></i>
+                <input class="search-input" type="text" placeholder="Enter your location!">
+                <button class="fas fa-search search-button" ></button>
+        </div>
+    </div>
+    <div class="weather-description">
+        <div class="weather-icon">
+            <div class="weather-status">
+                <div class="weather-status-img"></div>
+                <div class="city-name"></div>
+            </div>
+        </div>
+        <div class="weather-box">
+            <div class="weather-note"></div>
+            <div class="temperature"></div>
+        </div>
+        <div class="weather-detail">
+            <div class="humidity">
+                <i class="fas fa-water"></i> 
+                <div> Humidity
+                <p class="humidity-rate"></p></div>
+             </div>
+            <div class="windspeed">
+                <i class="fas fa-wind"></i> 
+                <div> Wind Speed
+                <p class="windspeed-rate"></p></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>
